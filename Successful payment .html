@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>گلدن کافی | پرداخت موفق</title>
+
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="icon" href="images/fav-icon.png">
+
+
+    <link rel="stylesheet" href="css/output.css">
+</head>
+<!-- start notification -->
+<div class="flex items-center justify-center bg-black h-[70px] w-full text-white gap-3 px-4 py-4 gap-x-4 border-b dark:border-b-zinc-800 border-b-zinc-500">
+    <div class="text-center ">
+        <span class="font-semibold flex justify-center leading-7 text-center text-[12px] lg:text-[17px]  "> 200هزار تومان تخفیف برای اولین خرید از سایت گلدن کافی ، کد تخفیف :off200</span>
+    </div>
+    <a href="store.html" class="gap-x-5">
+        <div class="bg-green-500 rounded-full text-white flex h-8 w-auto items-center justify-center px-3 py-2 hover:bg-green-600 transition-all">
+            <span class="text-[14px] items-center justify-center">فروشگاه</span>
+            <svg class="w-5 h-5 text-white items-center justify-center">
+                <use xlink:href="#arrow-left"></use>
+            </svg>
+        </div>
+    </a>
+    <a href="#" class="hidden">
+        <svg class="w-5 h-5 justify-end items-center text-white hover:bg-teal-700 hover:rounded-sm transition-all">
+            <use xlink:href="#close"></use>
+        </svg>
+    </a>
+</div>
+<!-- end notification -->
+<!-- start header -->
+<header class="bg-black/65 dark:bg-black/40 h-20 md:h-24 w-full mx-auto hidden md:flex sm:justify-between px-4 md:px-7 md:py-3 lg:px-10 lg:py-5 items-center sticky top-0 left-0 right-0 backdrop-blur-[4px] z-50 shadow dark:border-b dark:border-b-zinc-600 dark:shadow-normal dark:shadow-zinc-700">
+    <!-- سمت راست هدر-->
+    <div class="flex items-center gap-x-4 lg:gap-x-9 z-50">
+        <a href="#">
+            <img src="images/app-logo.png" alt="لوگو">
+        </a>
+        <nav>
+            <ul class="flex gap-x-4 lg:gap-x-9 text-[13px] lg:text-[15px] text-gray-300 " >
+                <li>
+                    <a href="index.html" class="relative inline-block group no-underline py-0.5 hover:text-orange-300">صفحه اصلی
+                        <span class="absolute left-1/2 bottom-0 h-[2px] w-full bg-orange-300 -translate-x-1/2 scale-x-0 origin-center transition-transform duration-300 group-hover:scale-x-100 "></span>
+                    </a>
+                </li>
+                <li class="relative group">
+                    <!-- لینک اصلی -->
+                    <a href="store.html" class="relative inline-block group-hover:text-orange-300 cursor-pointer no-underline py-0.5 header-store">فروشگاه
+                        <span class="absolute left-1/2 bottom-0 h-[2px] w-full bg-orange-300 -translate-x-1/2 scale-x-0 origin-center transition-transform duration-300 group-hover:scale-x-100"></span>
+                    </a>
+                    <!-- زیرمنو -->
+                    <div class="flex flex-col absolute bg-white dark:bg-zinc-700 w-52 text-zinc-700 dark:text-white text-[14px] p-6 gap-y-4 rounded-2xl shadow-normal border-t-orange-400 border-t-[3px] top-8  -left-20 opacity-0 invisible translate-y-0 group-hover:opacity-100 group-hover:visible group-hover:translate-y-2 transition-all duration-300 ease-out ">
+                        <a href="#" class="hover:text-orange-400 transition-all">قهوه عربیکا</a>
+                        <a href="#" class="hover:text-orange-400 transition-all">قهوه کاپوچینو</a>
+                        <a href="#" class="hover:text-orange-400 transition-all">قهوه اکسلسیا</a>
+                        <a href="#" class="hover:text-orange-400 transition-all">قهوه امریکانو</a>
+                        <a href="#" class="hover:text-orange-400 transition-all">قهوه روبوستا</a>
+                        <a href="#" class="hover:text-orange-400 transition-all">قهوه لیبریکا</a>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="article.html" class="relative inline-block group no-underline py-0.5 hover:text-orange-300">وبلاگ
+                        <span class="absolute left-1/2 bottom-0 h-[2px] w-full bg-orange-300 -translate-x-1/2 scale-x-0 origin-center transition-transform duration-300 group-hover:scale-x-100 "></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="relative inline-block group no-underline py-0.5 hover:text-orange-300">بهترین قهوه
+                        <span class="absolute left-1/2 bottom-0 h-[2px] w-full bg-orange-300 -translate-x-1/2 scale-x-0 origin-center transition-transform duration-300 group-hover:scale-x-100 "></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="relative inline-block group no-underline py-0.5 hover:text-orange-300">لینک های مفید
+                        <span class="absolute left-1/2 bottom-0 h-[2px] w-full bg-orange-300 -translate-x-1/2 scale-x-0 origin-center transition-transform duration-300 group-hover:scale-x-100 "></span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- سمت راست هدر-->
+    <!--سمت چپ هدر-->
+    <div class="flex gap-x-4 lg:gap-x-10 items-center">
+        <div class="flex text-orange-200 text-[15px] ">
+            <div class="group relative header-store">
+                <div class="px-1 lg:px-3">
+                    <svg class="w-7 h-7 lg:w-8 lg:h-8 cursor-pointer">
+                        <use xlink:href="#cart"></use>
+                    </svg>
+                </div>
+                <div class="bg-white dark:bg-zinc-700 w-[400px] h-auto absolute left-0 top-10 rounded-2xl shadow-normal border-t-orange-300 border-t-[3px] overflow-y-auto opacity-0 invisible translate-y-0 group-hover:opacity-100 group-hover:visible group-hover:translate-y-2 transition-all duration-300 ease-out">
+                    <div class="flex justify-between p-2">
+                        <div>
+                            <span class="text-zinc-700 dark:text-white"> 2 مورد</span>
+                        </div>
+                        <div>
+                            <a href="#" class="flex text-orange-600 items-center ">
+                                <span> مشاهده سبد خرید</span>
+                                <svg class="w-5 h-5 ">
+                                    <use xlink:href="#arrow-left"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col border-b-gray-300 border-b-[1px]">
+                        <div class="flex items-center px-1.5 py-5">
+                            <div>
+                                <img src="images/products/p1.png" class="w-30 h-30" alt="محصول 1">
+                            </div>
+                            <div class="flex flex-col gap-y-5 ">
+                                <h4 class="text-zinc-700 dark:text-white text-[15px] line-clamp-2">قهوه اسپرسو بن مانو مدل پریسکا 250 گرمی</h4>
+                                <span class="text-teal-600 text-[13px] ">14,500 تومان تخفیف</span>
+                                <span class="text-xl text-zinc-700 dark:text-white font-bold">175,500 تومان </span>
+                            </div>
+                        </div>
+                        <div class="flex items-center px-1.5 pb-5">
+                            <div>
+                                <img src="images/products/p2.png" class="w-30 h-30" alt="محصول 2">
+                            </div>
+                            <div class="flex flex-col gap-y-5">
+                                <h4 class="text-zinc-700 dark:text-white text-[15px] line-clamp-2">قهوه اسپرسو بن مانو مدل پریسکا 250 گرمی</h4>
+                                <span class="text-teal-600 text-[13px] ">14,500 تومان تخفیف</span>
+                                <span class="text-xl text-zinc-700 dark:text-white font-bold">175,500 تومان </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between ">
+                        <div class="flex flex-col gap-y-4 p-4">
+                            <span class="text-gray-500 dark:text-sky-300 tracking-ti">مبلغ قابل پرداخت</span>
+                            <span class="text-xl font-bold text-gray-700 dark:text-white tracking-ti">350.000 تومان</span>
+                        </div>
+                        <div>
+                            <a href="#" class="text-white bg-teal-600  h-15 rounded-xl w-[120px] flex items-center justify-center m-4 hover:bg-teal-700">سبد خرید</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="px-1 lg:px-3  toggle-theme" >
+                <svg class="w-7 h-7 lg:w-8 lg:h-8 cursor-pointer block dark:hidden">
+                    <use xlink:href="#moon"></use>
+                </svg>
+                <svg class="w-7 h-7 lg:w-8 lg:h-8 cursor-pointer hidden dark:block">
+                    <use xlink:href="#sun"></use>
+                </svg>
+            </div>
+            <button class="pr-1 lg:pr-3 cursor-pointer group relative header">
+                <div>
+                    <svg class="w-7 h-7 lg:w-8 lg:h-8">
+                        <use xlink:href="#search"></use>
+                    </svg>
+                </div>
+                <div class=" flex items-center border border-slate-300 dark:border dark:border-zinc-700 bg-white dark:bg-zinc-800 rounded-full text-zinc-600 dark:text-white p-1 absolute top-8 left-0 w-[300px] opacity-0 invisible translate-y-0 group-hover:opacity-100 group-hover:visible group-hover:translate-y-2 transition-all duration-300 ease-out">
+                    <input type="text" placeholder="جستجو" class="outline-0 border-0 px-3 bg-transparent w-full placeholder:text-zinc-600 dark:placeholder:text-zinc-500">
+                    <a href="#" class="bg-green-500 px-3 py-2 rounded-full text-white">جستجو</a>
+                </div>
+            </button>
+        </div>
+        <span class="w-px h-13 bg-white/20 block"></span>
+        <a href="login.html" class="flex text-orange-200 items-center gap-x-1.5">
+            <svg class="w-7 h-7 lg:w-8 lg:h-8 cursor-pointer">
+                <use xlink:href="#login"></use>
+            </svg>
+            <span class="text-[14px] lg:text-[16px]">ورود | ثبت نام</span>
+        </a>
+    </div>
+    <!--سمت چپ هدر-->
+</header>
+<!-- end header -->
+<!-- start responsive-header -->
+<header class="flex md:hidden items-center justify-between h-16 px-4 bg-white dark:bg-zinc-800 sticky top-0 z-50 border-b border-b-slate-400 shadow-sm dark:border-b dark:border-b-zinc-600 dark:shadow-normal dark:shadow-zinc-700">
+    <div class="nav-cart">
+        <svg class="w-6 h-6 text-zinc-700 dark:text-white">
+            <use xlink:href="#menu"></use>
+        </svg>
+    </div>
+    <div class="nav fixed transition-all overflow-y-auto pb-5 top-0 bottom-0 -right-64 pt-3 min-h-screen bg-white dark:bg-zinc-700 px-4 z-50 w-[50%] sm:w-64 border-l-2 border-l-gray-500  dark:border-l-orange-300">
+        <div class="flex items-center justify-between pb-3 border-b border-b-gray-300 dark:border-b-white/10">
+            <img src="images/app-logo.png" class="w-9 h-9" alt="لوگو">
+            <svg class="h-9 w-[122px] text-orange-300">
+                <use xlink:href="#logo-type "></use>
+            </svg>
+            <div class="close-menu cursor-pointer">
+                <svg class="w-6 h-5 text-zinc-700 dark:text-white font-medium">
+                    <use xlink:href="#close"></use>
+                </svg>
+            </div>
+        </div>
+        <div class="mt-3 flex items-center bg-orange-100/70 dark:bg-zinc-800 rounded-full text-zinc-700 dark:text-white p-1  *:items-center border border-zinc-400 dark:border-0">
+            <input type="text" placeholder="جستجو" class=" outline-0 border-0 px-2 bg-transparent w-full placeholder:text-zinc-600 dark:placeholder:text-zinc-500 placeholder:text-[13px] placeholder:items-center">
+            <a href="#" class="bg-green-500 px-1.5 py-1 rounded-full text-white text-[13px]">جستجو</a>
+        </div>
+        <ul class="mt-3 space-y-4">
+            <li class="text-orange-400 dark:text-orange-300 bg-orange-50 dark:bg-orange-200/20 rounded-lg px-3 py-2 h-10">
+                <a href="index.html" class=" flex items-center gap-x-1 ">
+                    <svg class="w-5 h-5">
+                        <use xlink:href="#home"></use>
+                    </svg>
+                    <span>صفحه اصلی</span>
+                </a>
+            </li>
+            <li>
+                <div class="flex items-center justify-between text-zinc-700 dark:text-white font-semibold ">
+                    <a href="#" class="gap-x-1 px-3 flex items-center">
+                        <svg class="w-5 h-5 font-bold">
+                            <use xlink:href="#shop1"></use>
+                        </svg>
+                        <span>فروشگاه</span>
+                    </a>
+                    <span class="sub-menu-open-click">
+                        <svg class="w-4 h-4">
+                            <use xlink:href="#ch-d"></use>
+                        </svg>
+                    </span>
+                </div>
+                <div class="sub-menu">
+                    <a href="#" class="sub-menu-active">قهوه عربیکا</a>
+                    <a href="#">قهوه کاپوچینو</a>
+                    <a href="#">قهوه اکسلسیا</a>
+                    <a href="#">قهوه امریکانو</a>
+                    <a href="#">قهوه روبوستا</a>
+                    <a href="#">قهوه لیبریکا</a>
+                </div>
+            </li>
+            <li class="text-zinc-700 dark:text-white">
+                <a href="about.html" class=" flex items-center gap-x-1 font-semibold px-3">
+                    <svg class="w-5 h-5 font-bold">
+                        <use xlink:href="#about"></use>
+                    </svg>
+                    <span>درباره ما</span>
+                </a>
+            </li>
+            <li class="text-zinc-700 dark:text-white">
+                <a href="contact.html" class=" flex items-center gap-x-1 font-semibold px-3">
+                    <svg class="w-5 h-5 font-bold">
+                        <use xlink:href="#mobile"></use>
+                    </svg>
+                    <span>تماس با ما</span>
+                </a>
+            </li>
+            <li class="text-zinc-700 dark:text-white">
+                <a href="article.html" class=" flex items-center gap-x-1 font-semibold px-3">
+                    <svg class="w-5 h-5 font-bold">
+                        <use xlink:href="#book"></use>
+                    </svg>
+                    <span>وبلاگ</span>
+                </a>
+            </li>
+        </ul>
+        <div class="border-t border-t-gray-300 dark:border-t-white/10 mt-3 pt-3 space-y-4 text-orange-400 dark:text-orange-300 px-3">
+            <a href="login.html" class="flex  items-center gap-x-1 ">
+                <svg class="w-5 h-5 cursor-pointer">
+                    <use xlink:href="#login"></use>
+                </svg>
+                <span>ورود | ثبت نام</span>
+            </a>
+            <div class="toggle-theme">
+                <div class="dark:hidden flex items-center gap-x-1">
+                    <svg class="w-5 h-5 ">
+                        <use xlink:href="#moon"></use>
+                    </svg>
+                    <span>تم تیره</span>
+                </div>
+                <div class="hidden dark:flex items-center gap-x-1">
+                    <svg class="w-5 h-5 ">
+                        <use xlink:href="#sun"></use>
+                    </svg>
+                    <span>تم روشن</span>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <a href="index.html" class="justify-center">
+        <svg class="h-10 text-orange-300 w-[130px]">
+            <use xlink:href="#logo-type"></use>
+        </svg>
+    </a>
+    <div class="cart-icon cursor-pointer">
+        <svg class="h-6 w-6 text-zinc-700 dark:text-white">
+            <use xlink:href="#cart"></use>
+        </svg>
+    </div>
+    <div class="mobile-cart transition-all fixed pb-19 sm:pb-6 top-0 -left-64 bottom-0 w-[50%] sm:w-64 pt-5 px-4 bg-white dark:bg-zinc-700 z-50 min-h-screen overflow-y-auto border-r-2 border-r-gray-500 dark:border-r-orange-300">
+        <div class="flex items-center justify-between border-b border-b-gray-300 dark:border-b-white/10 pb-5">
+            <div class="close-btn cursor-pointer">
+                <svg class="w-6 h-5 text-zinc-700 dark:text-white font-medium">
+                    <use xlink:href="#close"></use>
+                </svg>
+            </div>
+            <span class="tracking-ti text-sm font-bold text-zinc-700 dark:text-orange-300">سبد ‌خرید</span>
+
+        </div>
+        <div class="flex flex-col items-center justify-end ">
+            <div class="flex mt-4 border-b  border-b-teal-300 pb-2">
+                <img src="images/products/p1.png" class="w-20 h-23 items-center justify-center" alt="محصول 1">
+                <div class="flex flex-col items-end justify-between gap-y-1">
+                    <h4 class="text-zinc-700 text-[13px] font-medium text-center dark:text-white ">قهوه اسپرسو بن مانو مدل پریسکا 250 گرمی</h4>
+                    <span class="text-teal-600 font-medium text-[13px] text-center dark:text-emerald-400">14,500 تومان تخفیف</span>
+                    <span class="font-bold text-zinc-800 text-lg dark:text-white text-center">175,000 تومان</span>
+
+                </div>
+
+            </div>
+            <div class="flex mt-4 border-b border-b-teal-300 pb-2">
+                <img src="images/products/p2.png" class="w-20 h-23 items-center justify-center" alt="محصول 2">
+                <div class="flex flex-col items-end justify-between gap-y-1">
+                    <h4 class="text-zinc-700 text-[13px] font-medium text-center dark:text-white ">قهوه اسپرسو بن مانو مدل پریسکا 250 گرمی</h4>
+                    <span class="text-teal-600 font-medium text-[13px] text-center dark:text-emerald-400">14,500 تومان تخفیف</span>
+                    <span class="font-bold text-zinc-800 text-lg dark:text-white text-center">175,000 تومان</span>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="mt-4 justify-between items-center flex">
+            <div class="flex flex-col">
+                <span class="text-gray-600 dark:text-gray-400 text-[13px]">مبلغ قابل پرداخت:</span>
+                <span class="text-zinc-800 dark:text-white font-medium text-[15px]">350,000 تومان</span>
+            </div>
+            <div>
+                <a href="#" class="text-white bg-teal-600  h-10 rounded-xl w-[80px] flex items-center justify-center  hover:bg-teal-700 text-[15px] ">پرداخت</a>
+            </div>
+
+
+        </div>
+
+    </div>
+
+</header>
+<!-- end responsive-header -->
+<!-- start main -->
+<main>
+    <section class="mt-[20px] mb-10 lg:mb-13">
+        <div class="continer">
+            <ul class="flex items-center text-gray-700 dark:text-gray-300 text-sm lg:text-base gap-x-1">
+                <li class="flex items-center gap-x-1">
+                    <a href="index.html">صفحه اصلی</a>
+                    <svg class="w-5 h-5 ">
+                            <use xlink:href="#arrow-left-1"></use>
+                    </svg>
+                </li>
+                <li class="flex items-center gap-x-1">
+                    <a href="payment.html">پرداخت</a>
+                    <svg class="w-5 h-5 ">
+                        <use xlink:href="#arrow-left-1"></use>
+                    </svg>
+                </li>
+                <li>
+                    <a href="#">پرداخت موفق</a>
+
+                </li>
+            </ul>
+            <div class="mx-auto flex items-center justify-center flex-col w-[90%] sm:w-[60%] md:w-[40%] gap-y-4 p-4 rounded-lg shadow-normal bg-white dark:bg-zinc-700 mt-[20px]">
+                <svg class="text-green-700 w-16 h-16 dark:text-green-600">
+                    <use xlink:href="#check"></use>
+                </svg>
+                <h3 class="text-green-700 dark:text-green-600 text-lg">پرداخت شما موفقیت آمیز بود</h3>
+                <p class="text-zinc-700 dark:text-gray-300">جزئیات سفارش :</p>
+                <span class="border-1 dark:border-white/20 border-gray-500 w-full rounded-4xl"></span>
+                <div class=" mt-2 flex items-center w-full justify-between *:text-center gap-2 md:gap-5 *:w-[33%] *:w-[] *:md:w-[25%]">
+                    <span>
+                        <p class="text-zinc-800 font-medium dark:text-gray-400 text-[15px] md:text-base">تاریخ و زمان</p>
+                        <p class="mt-1 md:mt-1.5 text-zinc-700 dark:text-gray-200 text-[15px] md:text-base">1404/6/21 | 22:00</p>
+                    </span>
+                    <span>
+                        <p class="text-zinc-800 font-medium dark:text-gray-400 text-[15px] md:text-base">وضعیت</p>
+                        <p class="mt-1.5 bg-green-500/20 dark:bg-zinc-600 text-green-600 rounded-lg py-px cursor-pointer text-[15px]">پرداخت موفق</p>
+                    </span>
+                    <span class="order-4 ">
+                        <p class="text-zinc-800 font-medium dark:text-gray-400 text-[15px] md:text-base">شماره پیگیری</p>
+                        <p class="mt-1.5 text-zinc-700 dark:text-gray-200 text-[15px] md:text-base">12859314</p>
+                    </span>
+                </div>
+                <div class="w-full items-center  flex gap-x-5 mt-5">
+                    <a href="index.html" class="w-[50%] bg-green-500 hover:bg-green-600 p-3 text-center rounded-lg text-white text-base font-medium transition-all">بازگشت به سایت</a>
+                    <a href="#" class="w-[50%] bg-blue-500 hover:bg-blue-600 p-3 text-center text-white text-base font-medium transition-all rounded-lg">پیگیری سفارش</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!-- end main -->
+    <!-- start footer -->
+    <footer class="bg-zinc-700 text-white pt-8">
+        <section class="pb-[12px] items-center">
+            <div class="continer">
+                <div class="flex justify-between flex-col-reverse sm:flex sm:flex-row gap-y-10 pb-8 border-b-[1px] border-b-white/10 items-center">
+                    <div class="flex flex-col gap-y-3">
+                        <h2>از جدیدترین تخفیف های ما با خبر شوید</h2>
+                        <div class="bg-zinc-600 rounded-lg w-[200px] lg:w-[230px] flex justify-between">
+                            <input type="tel" placeholder="شماره همراه" class="bg-transparent text-gray-400 p-1 border-1 border-gray-500 rounded-lg w-full placeholder:text-sm">
+                            <button class="px-4 cursor-pointer bg-green-600 hover:bg-green-700 rounded-lg transition-all">ثبت</button>
+                        </div>
+                    </div>
+                    <a href="#" class="border-2 border-gray-300 flex gap-x-2 items-center p-1.5 rounded-lg hover:text-green-500 hover:border-green-500 hover:transition-all">
+                        <span>بازگشت به بالا</span>
+                        <svg class="w-5 h-5">
+                            <use xlink:href="#arrow-up"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="flex mt-8 flex-col lg:flex-row gap-y-10 lg:gap-x-20 justify-between flex-wrap leading-8">
+                    <div class="flex flex-col gap-y-2 w-full lg:w-[30%] text-justify">
+                        <div class="text-green-500  ">
+                            <a href="index.html" class="font-bold text-3xl ">گلدن‌کافی</a>
+                            <p class="text-[]">حس نو با قهوه را با ما تجربه کنید...</p>
+                        </div>
+                        <p class="text-white">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.</p>
+                    </div>
+                    <div class="flex flex-col gap-y-2 w-full lg:w-[auto] text-justify">
+                        <h2 class="font-bold text-lg mb-2">دسترسی سریع</h2>
+                        <div class="flex gap-x-10 *:space-y-1">
+                            <ul class="*:hover:text-green-500 *:transition-colors">
+                                <li><a href="#">صفحه اصلی</a> </li>
+                                <li><a href="#">فروشگاه</a></li>
+                                <li><a href="#">تماس با ما</a></li>
+                                <li><a href="#">سوالات متداول</a></li>
+                            </ul>
+                            <ul class="*:hover:text-green-500 *:transition-colors">
+                                <li><a href="#">ثبت نام | ورود</a> </li>
+                                <li><a href="#">وبلاگ</a></li>
+                                <li><a href="#">شرایط و قوانین</a></li>
+                                <li><a href="#">حریم خصوصی</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-y-2 w-full lg:w-[30%] text-justify">
+                        <h2 class="font-bold text-lg mb-2">تماس با ما</h2>
+                        <div class="flex flex-col gap-y-2.5 ">
+                            <div class="flex gap-x-1 items-center">
+                                <svg class="w-5 h-5 md:w-6 md:h-6">
+                                    <use xlink:href="#map"></use>
+                                </svg>
+                                <span>فردوس ، خیابان مطهری ، مطهری 2</span>
+                            </div>
+                            <div class="flex gap-x-5">
+                                <div class="flex gap-x-1.5 items-center text-green-500 font-semibold">
+                                    <svg class="w-5 h-5 md:w-6 md:h-6">
+                                        <use xlink:href="#envelope"></use>
+                                    </svg>
+                                    <span>info@coffee.com</span>
+                                </div>
+                                <div class="flex gap-x-1.5 items-center text-green-500 font-semibold">
+                                    <svg class="w-5 h-5 ">
+                                        <use xlink:href="#phone"></use>
+                                    </svg>
+                                    <span>09151231234</span>
+                                </div>
+                            </div>
+                            <div class="flex  items-center justify-end gap-x-2 md:gap-x-7 ltr ">
+                                <a href="#" class="flex items-center gap-x-1.5  border-orange-300 rounded-xl p-1.5 bg-gradient-to-r from-orange-300 to-orange-200 text-zinc-700 font-semibold h-13 ">@golden_coffee
+                                    <svg class="w-10 h-10 md:w-[33px] md:h-[33px]">
+                                        <use xlink:href="#telegram"></use>
+                                    </svg>
+                                </a>
+                                <a href="#" class="flex items-center gap-x-1.5  border-orange-300 rounded-xl p-1.5 bg-gradient-to-r from-orange-300 to-orange-200 text-zinc-700 font-semibold h-13 ">@golden_coffee
+                                    <svg class="w-10 h-10 md:w-[38px] md:h-[38px]">
+                                        <use xlink:href="#instagram"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="flex items-center justify-start gap-x-7">
+                                <a href="#" class="w-30 ">
+                                    <img src="images/enamad_icon_text_color_blue_275.png">
+                                </a>
+                                <a href="#" class="w-26 ">
+                                    <img src="images/namad2.png">
+                                </a>
+                                <a href="#" class="w-18">
+                                    <img src="images/kasbokar.webp">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full border-t border-t-white/10  mt-[19px] "></div>
+                <div class="flex flex-col md:flex md:flex-row items-center gap-x-1 mt-4  ">
+                    <p class=" text-center md:text-right w-[98%] md:w-auto">تمام حقوق نزد فروشگاه آنلاین
+                        <a href="index.html" class="text-green-500 font-semibold">گلدن کافی</a>
+                    <p>محفوظ است و کپی برداری از مطالب پیگرد قانونی دارد.</p>
+                    <p class="text-center md:ltr-text mr-auto w-[98%] md:w-auto text-[13px] md:text-[16px]">.Copyright © 2025 Golden Coffee. All rights reserved</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+<!-- end footer -->
+<script src="js/main.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/Timer.js"></script>
+</body>
+</html>
